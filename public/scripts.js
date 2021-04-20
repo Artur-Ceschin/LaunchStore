@@ -19,7 +19,7 @@ const Mask = {
 const PhotosUpload = {
     input: "",
     preview: document.querySelector('#photos-preview'),
-    uploadLimit: 6,
+    uploadLimit: 5,
     files: [],
     handleFileInput(event) {
         const { files: fileList } = event.target
@@ -113,7 +113,6 @@ const PhotosUpload = {
         photoDiv.remove()
     }
 }
-
 const ImageGallery = {
     highlight: document.querySelector('.gallery .highlight > img'),
     previews: document.querySelectorAll('.gallery-preview img'),
