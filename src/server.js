@@ -2,10 +2,16 @@ const express = require('express');
 const nunjucks = require('nunjucks');
 const routes = require('./routes');
 const methodOverride = require('method-override')
+const session = require('./config/session');
 
 const server = express();
 
 //Fazer o req.body funcionar
+server.use(session)
+server.use((req, res, next) => {
+    res.locals.session = req.session
+    next();
+})
 server.use(express.urlencoded({ extended: true }));
 server.use(express.static('public'))
 server.use(methodOverride('_method'));
@@ -13,13 +19,13 @@ server.use(routes)
 
 server.set('view engine', 'njk')
 
-nunjucks.configure('src/app/views', { 
+nunjucks.configure('src/app/views', {
     express: server,
-    autoescape:false,
+    autoescape: false,
     noCache: true,
 })
 
 const port = 3333
-server.listen(port, ()=> {
+server.listen(port, () => {
     console.log('Server is running on port ' + port)
 })
