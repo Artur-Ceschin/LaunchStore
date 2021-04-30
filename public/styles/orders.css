@@ -1,3 +1,10 @@
+
+.container {
+  --status-open: #49d4f3;
+  --status-sold: #50fa7b;
+  --status-canceled: #ff1414;
+}
+
 .order-success,
 .order-error {
     padding: 0;
@@ -29,7 +36,7 @@
 
 .orders .item-container {
   display: grid;
-  grid-template-columns: 1fr auto auto 100px;
+  grid-template-columns: 1fr auto auto 100px 100px;
   grid-gap: 32px;
 
   align-items: center;
@@ -106,4 +113,95 @@
 
 .orders .status.canceled {
   background-color: rgb(189, 16, 16);
+}
+
+/* ====================
+==== ORDER DETAILS ====
+==================== */
+
+.order-detail {
+  max-width: 700px;
+  color: #999;
+}
+
+.order-detail .info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.order-detail .info h4 {
+  margin-bottom: 8px;
+  color: #fd951f;
+  font-size: 12px;
+  letter-spacing: .8px;
+  text-transform: uppercase;
+}
+
+.order-detail .info .status {
+  text-align: right;
+}
+
+.order-detail .info .status.open h2 {
+  color: var(--status-open);
+}
+
+.order-detail .info .status.sold h2 {
+  color: var(--status-sold);
+}
+
+.order-detail .info .status.canceled h2 {
+  color: var(--status-canceled);
+}
+
+.order-detail .info .status p {
+  font-size: 12px;
+}
+
+.order-detail .product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 16px 0;
+  width: 100%;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+.order-detail img {
+  margin-right: 16px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.order-detail .price {
+  flex: 1;
+  font-weight: 700;
+  text-align: right;
+ 
+}
+
+.order-detail .quantity {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.order-detail .total {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 22px;
+  font-weight: 700;
+
+}
+
+.order-detail .total span {
+  margin-right: 8px;
+  font-size: 14px;
+  font-weight: 500;
 }
