@@ -23,9 +23,12 @@
 
 Launchstore é um projeto de e-commerce, desenvolvido durante o bootcamp LaunchBase da [Rocketseat](https://rocketseat.com.br/), onde foram abordados conceitos como MVC, controle de sessões, criptografia de senhas, envio de e-mails, upload de imagens, validações no back e front end, animações, dentre outros.
 
-<br>
+<br> 
+
 ![](.github/launchbase.gif)
+
 <br>
+
 ## Funcionalidades
 
 - [X] Cadastro de usuários.
@@ -41,7 +44,7 @@ Launchstore é um projeto de e-commerce, desenvolvido durante o bootcamp LaunchB
 
 <br>
 
-## 🧪 Technologas e ferramentas
+## 🧪 Technologias e ferramentas
 
 As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 
@@ -103,4 +106,4 @@ Feito com :purple_heart: by [Artur Ceschin](https://github.com/Artur-Ceschin)
 
 [![Linkedin Badge](https://img.shields.io/badge/-Artur%20Martins-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/artur-peres-ceschin-programador/)](https://www.linkedin.com/in/artur-peres-ceschin-programador/) 
 [![Gmail Badge](https://img.shields.io/badge/-artur.ceschin@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rafaeldcmartins@gmail.com)](mailto:rafaeldcmartins@gmail.com)
-<p>Readme inspired by Martins Rafael</p>
+<p>Readme inspirado no do Martins Rafael</p>
