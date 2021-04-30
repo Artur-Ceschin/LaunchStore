@@ -104,6 +104,6 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para m
 
 Feito com :purple_heart: by [Artur Ceschin](https://github.com/Artur-Ceschin)
 
-[![Linkedin Badge](https://img.shields.io/badge/-Artur%20Martins-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/artur-peres-ceschin-programador/)](https://www.linkedin.com/in/artur-peres-ceschin-programador/) 
-[![Gmail Badge](https://img.shields.io/badge/-artur.ceschin@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rafaeldcmartins@gmail.com)](mailto:rafaeldcmartins@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Artur%20Ceschin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/artur-peres-ceschin-programador/)](https://www.linkedin.com/in/artur-peres-ceschin-programador/) 
+[![Gmail Badge](https://img.shields.io/badge/-artur.ceschin@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:artur.ceschin@gmail.com)](mailto:artur.ceschin@gmail.com)
 <p>Readme inspirado no do Martins Rafael</p>
